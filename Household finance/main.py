@@ -5,6 +5,7 @@ import tkinter as tk
 class Main(tk.Frame):
     def __init__(self, root):
         super().__init__(root)
+        self.add_img = tk.PhotoImage(file='add.gif')
         self.init_main()
 
     # инициализация элементов окна
@@ -12,8 +13,7 @@ class Main(tk.Frame):
         toolbar = tk.Frame(bg='#d7d8e0', bd=2)
         toolbar.pack(side=tk.TOP, fill=tk.X)
 
-        self.add_img = tk.PhotoImage(file='add.gif')
-        btn_open_dialog = tk.Button(toolbar, text='Добавить позицию', command=self.open_dialog,
+        btn_open_dialog = tk.Button(toolbar, text='Добавить позицию', command=self.open_dialog(),
                                     bg='#d7d8e0', bd=0, compound=tk.TOP, image=self.add_img)
         btn_open_dialog.pack(side=tk.LEFT)
 
