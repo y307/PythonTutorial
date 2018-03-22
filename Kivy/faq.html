@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Функции map и zip и lambda</title>
+</head>
+<body>
+<div class="panel-heading">
+    <h1 class="panel-title"><span itemprop="name">Функции map и zip и lambda. Python</span></h1>
+</div>
+
+<div class="panel-body">
+    <p class="text-right"><small><span itemprop="datePublished">2010-11-17 09:47</span></small></p>
+
+    <div itemprop="articleBody">
+    <p>Функции map, zip и лямбда (кстати говоря называются "функции высшего порядка" или "first-class-functions") позволяют достаточно просто выполнять различные манипуляции с данными, для чего в "обычном" процедурном стиле приходится писать немного больше кода. Все ниженаписанное относится к так называемому <a href="http://ru.wikipedia.org/wiki/Функциональное_программирование_на_Питоне">функциональному
+программированию</a>, луркайте подробности.</p>
+<h2>Функции map, zip и lambda в примерах.</h2>
+<p>Простая задача есть список a = [1, 2] и список b = [3, 4] одинаковой
+длины и нужно слить их парами. Проще простого - используя функцию
+<strong>zip</strong> :</p>
+<div class="codehilite"><pre><span class="n">a</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">]</span>
+<span class="n">b</span> <span class="o">=</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">]</span>
+<span class="k">print</span> <span class="nb">zip</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">)</span>
+<span class="p">[(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">),</span> <span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">4</span><span class="p">)]</span>
+</pre></div>
+
+
+<p>или тройками :</p>
+<div class="codehilite"><pre><span class="n">a</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">]</span>
+<span class="n">b</span> <span class="o">=</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">]</span>
+<span class="n">c</span> <span class="o">=</span> <span class="p">[</span><span class="mi">5</span><span class="p">,</span><span class="mi">6</span><span class="p">]</span>
+<span class="k">print</span> <span class="nb">zip</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">,</span><span class="n">c</span><span class="p">)</span>
+<span class="p">[(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">5</span><span class="p">),</span> <span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">6</span><span class="p">)]</span>
+</pre></div>
+
+
+<p>или в более общем виде</p>
+<div class="codehilite"><pre><span class="nb">list</span> <span class="o">=</span> <span class="p">[</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">c</span><span class="p">]</span>
+<span class="k">print</span> <span class="nb">zip</span><span class="p">(</span><span class="o">*</span><span class="nb">list</span><span class="p">)</span>
+<span class="p">[(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">5</span><span class="p">),</span> <span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">6</span><span class="p">)]</span>
+</pre></div>
+
+
+<p>Звездочка * перед list как-бы говорит что передается список аргументов,
+т.е. Действовать эквивалентно тому как если бы передали a, b, c т.е.
+Можно даже так <strong>print zip(*[a, b, c])</strong> результат не изменится.</p>
+<p>Далее, функция – <strong>map</strong>. Случаются ситуации, когда внезапно нужно
+применить какую-либо функцию к каждому элементу списка. Нуб напишет так
+:</p>
+<div class="codehilite"><pre><span class="k">def</span> <span class="nf">f</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">x</span><span class="o">*</span><span class="n">x</span>
+
+<span class="n">nums</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">]</span>
+<span class="k">for</span> <span class="n">num</span> <span class="ow">in</span> <span class="n">nums</span><span class="p">:</span>
+    <span class="k">print</span> <span class="n">f</span><span class="p">(</span><span class="n">num</span><span class="p">)</span>
+</pre></div>
+
+
+<p>Более опытный нуб изучивший list comprehensions :</p>
+<div class="codehilite"><pre><span class="k">def</span> <span class="nf">f</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">x</span><span class="o">*</span><span class="n">x</span>
+<span class="k">print</span> <span class="p">[</span><span class="n">f</span><span class="p">(</span><span class="n">num</span><span class="p">)</span> <span class="k">for</span> <span class="n">num</span> <span class="ow">in</span> <span class="n">nums</span><span class="p">]</span>
+</pre></div>
+
+
+<p>Программист сделает проще :</p>
+<div class="codehilite"><pre><span class="k">def</span> <span class="nf">f</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">x</span><span class="o">*</span><span class="n">x</span>
+<span class="k">print</span> <span class="nb">map</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">nums</span><span class="p">)</span>
+</pre></div>
+
+
+<p>А тру-мэдскиллз хакер сделает следующим образом (при условии конечно, что функцию можно записать лямбдой, далеко не всегда функция будет достаточно простой чтобы записать ее лямбдой) :</p>
+<div class="codehilite"><pre><span class="k">print</span> <span class="nb">map</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="n">x</span><span class="o">*</span><span class="n">x</span><span class="p">,</span> <span class="n">nums</span><span class="p">)</span>
+</pre></div>
+
+
+<p>Последняя запись являет собой пример наиболее грамотного подхода. Дело в
+том, что когда человек пишет код как стихи, в порыве вдохновения (что другими словами можно назвать "в диком угаре"), крайне роляет скорость написания (отсюда растут корни трепетной любви многих девелоперов к простым текстовым редакторм vim, emacs, sublimetext), а сильная сторона питона как раз в размере генерируемого кода - он очень компактный. Написать одну строчку естественно быстрее чем 7, да и читать короткий код проще, однако написание подобного кода требует определенного навыка. Другая сторона
+медали – иногда в этом "диком угаре" пишут в одну строчку целые последовательности достаточно сложных действий, да так что очень трудно понять что там происходит и что получается в конечном итоге.</p>
+<p>Из примера понятно, что <strong>map</strong> применяет какую-либо функцию к списку и
+возвращает результат опять же в виде списка. Вы можете передать
+несколько списков, тогда функция (идущая первым параметром) должна
+принимать несколько аргументов (по количеству списков переданных в
+<strong>map</strong>).</p>
+<div class="codehilite"><pre><span class="k">def</span> <span class="nf">f</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">x</span><span class="o">*</span><span class="n">y</span>
+
+<span class="n">a</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">]</span>
+<span class="n">b</span> <span class="o">=</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">]</span>
+<span class="k">print</span> <span class="nb">map</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span>
+<span class="p">[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">12</span><span class="p">,</span> <span class="mi">20</span><span class="p">]</span>
+</pre></div>
+
+
+<p>Классно, правда?</p>
+<p>Однако если списки разной длины, т.е. Один короче другого, то он будет
+дополнен значениями None до нужной длины. Если убрать из списка <strong>b</strong>
+последнее значение – пример не будет работать, т.к. В функции f
+произойдет попытка умножения числа на None, и питоне не позволяет это делать,
+что кстати выгодно отличает его от php, который в подобной
+ситуации работал бы дальше. Поэтому если функция f достаточно объемна,
+неплохо бы проверять передаваемые значения. Например ;</p>
+<div class="codehilite"><pre><span class="k">def</span> <span class="nf">f</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">y</span> <span class="o">==</span> <span class="bp">None</span><span class="p">):</span>
+        <span class="n">y</span> <span class="o">=</span> <span class="mi">1</span>
+    <span class="k">return</span> <span class="n">x</span><span class="o">*</span><span class="n">y</span>
+</pre></div>
+
+
+<p>Если же заместо функции стоит None – то <strong>map</strong> действует примерно так
+же как и <strong>zip</strong>, но если передаваемые списки разной длины в результат
+будет писаться None – что кстати очень уместно в некоторых моментах.</p>
+<div class="codehilite"><pre><span class="n">a</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">]</span>
+<span class="n">b</span> <span class="o">=</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">]</span>
+<span class="k">print</span> <span class="nb">map</span><span class="p">(</span><span class="bp">None</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span>
+<span class="p">[(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">),</span> <span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">),</span> <span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="bp">None</span><span class="p">)]</span>
+</pre></div>
+
+
+<p>Теперь про <strong>лямбда функции в python</strong>. Они используются когда вам
+необходимо определить функцию без исподьзования def func_name(): ...,
+ведь часто (как в предыдущих примерах) функция настолько мала, что определять её отдельно смыла нет (лишние строчки кода, что ухудшение читабельность). Поэтому функцию можно определить “на месте” <strong>f = lambda x: x*x</strong> как бы говорит нам –
+принимает x, возвращает x*x</p>
+<p>Так используя стандартные инструменты питона можно записать довольно
+сложные действия в одну строчку. К примеру функцию :</p>
+<div class="codehilite"><pre><span class="k">def</span> <span class="nf">f</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">y</span> <span class="o">==</span> <span class="bp">None</span><span class="p">):</span>
+        <span class="n">y</span> <span class="o">=</span> <span class="mi">1</span>
+    <span class="k">return</span> <span class="n">x</span><span class="o">*</span><span class="n">y</span>
+</pre></div>
+
+
+<p>можно представить как :</p>
+<div class="codehilite"><pre><span class="k">lambda</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">:</span> <span class="n">x</span> <span class="o">*</span> <span class="p">(</span><span class="n">y</span> <span class="k">if</span> <span class="n">y</span> <span class="ow">is</span> <span class="ow">not</span> <span class="bp">None</span> <span class="k">else</span> <span class="mi">1</span><span class="p">)</span>
+</pre></div>
+
+
+<p>А теперь хорошо бы передавать списки отсортированные по длине – len(a)
+&gt; (b) – проще простого - воспользуемся функцией <strong>sorted</strong> :</p>
+<div class="codehilite"><pre><span class="nb">sorted</span><span class="p">([</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">],</span> <span class="n">key</span><span class="o">=</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="nb">len</span><span class="p">(</span><span class="n">x</span><span class="p">),</span> <span class="n">reverse</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+</pre></div>
+
+
+<p><strong>фунция sorted</strong> принимает список значений ([a,b] = [[1,2],[2,4,5]]) и
+сортирует по ключу key – который у нас задан функцией len(x)
+ - возвращающей длину списка, сортируем в порядке убывания (reverse=True)</p>
+<p>В конечном итоге вся операция записывается таким образом :</p>
+<div class="codehilite"><pre><span class="nb">map</span><span class="p">(</span><span class="k">lambda</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">:</span> <span class="n">x</span> <span class="o">*</span> <span class="p">(</span><span class="n">y</span> <span class="k">if</span> <span class="n">y</span> <span class="ow">is</span> <span class="ow">not</span> <span class="bp">None</span> <span class="k">else</span> <span class="mi">1</span><span class="p">),</span> <span class="o">*</span><span class="nb">sorted</span><span class="p">([</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">],</span> <span class="n">key</span><span class="o">=</span><span class="k">lambda</span> <span class="n">x</span><span class="p">:</span> <span class="nb">len</span><span class="p">(</span><span class="n">x</span><span class="p">),</span> <span class="n">reverse</span><span class="o">=</span><span class="bp">True</span><span class="p">))</span>
+</pre></div>
+
+
+<p>списки a и b могут быть разной длины и передаваться в каком угодно
+порядке. <strong>Лямбда-выражения удобны для определения не очень сложных
+функций, которые передаются затем другим функциям.</strong>
+</body>
+</html>
