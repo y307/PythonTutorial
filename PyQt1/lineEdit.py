@@ -20,7 +20,7 @@ class MainWindow(QMainWindow):
         grid_layout = QGridLayout(self)  # Create QGridLayout
         central_widget.setLayout(grid_layout)  # Set this accommodation in central widget
 
-        grid_layout.addWidget(QLabel("Введите IP-адрес", self), 0, 0)
+        grid_layout.addWidget(QLabel("Введите IP-адрес", self))
 
         ipRange = "(?:[0-1]?[0-9]?[0-9]|2[0-4][0-9]|25[0-5])"  # Part of the regular expression
         # Regulare expression
@@ -29,7 +29,7 @@ class MainWindow(QMainWindow):
 
         lineEdit = QLineEdit()
         lineEdit.setValidator(ipValidator)
-        grid_layout.addWidget(lineEdit, 0, 1)
+        grid_layout.addWidget(lineEdit)
 
 
 if __name__ == "__main__":
