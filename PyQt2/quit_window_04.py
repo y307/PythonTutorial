@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-
+# http://python-3.ru/page/programmy-na-pyqt5
 import sys
 from PyQt5.QtWidgets import QWidget, QPushButton, QApplication
 from PyQt5.QtCore import QCoreApplication
