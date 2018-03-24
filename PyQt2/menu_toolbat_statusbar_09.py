@@ -15,12 +15,14 @@ class Example(QMainWindow):
 
     def initUI(self):
         textEdit = QTextEdit()
+        textEdit.setStatusTip('Text editor')
         self.setCentralWidget(textEdit)
         exitAction = QAction(QIcon('exit.png'), 'Exit', self)
         exitAction.setShortcut('Ctrl+Q')
         exitAction.setStatusTip('Exit application')
         exitAction.triggered.connect(self.close)
-        self.statusBar()
+        # self.statusBar()
+        self.statusBar().showMessage('Ready')
         menubar = self.menuBar()
         fileMenu = menubar.addMenu('&File')
         fileMenu.addAction(exitAction)
