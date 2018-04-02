@@ -9,8 +9,8 @@ class MyApp(App):
 
     def build(self):
         return Button(text='Это кнопка',
-                      background_color=(0, 0, 1, 1),
                       font_size=30,
+                      background_color=(0, 0, 1, 1),
                       on_press=self.btn_press)
 
     def btn_press(self, instance):
@@ -19,4 +19,3 @@ class MyApp(App):
 
 if __name__ == '__main__':
     MyApp().run()
-
