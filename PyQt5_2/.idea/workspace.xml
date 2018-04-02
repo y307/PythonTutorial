@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0c185c8-7b18-45c9-b1eb-e217cddd75f0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../PyQt1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PyQt1/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="55efe68d-a871-486a-a91d-b1855a66139d" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="PyQt5_2" />
   </component>
   <component name="FileEditorManager">
     <leaf />
@@ -21,82 +22,30 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>cl</find>
-      <find>sty</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/simple.py" />
-        <option value="$PROJECT_DIR$/icon_app.py" />
-        <option value="$PROJECT_DIR$/tips.py" />
-        <option value="$PROJECT_DIR$/close_window.py" />
-        <option value="$PROJECT_DIR$/message_box.py" />
-        <option value="$PROJECT_DIR$/menu_toolbat_statusbar_09.py" />
-        <option value="$PROJECT_DIR$/absolute_positioning_10.py" />
-        <option value="$PROJECT_DIR$/block_template_11.py" />
-        <option value="$PROJECT_DIR$/greed_layout_12.py" />
-        <option value="$PROJECT_DIR$/layout_review_13.py" />
-        <option value="$PROJECT_DIR$/signals_slotes_14.py" />
-        <option value="$PROJECT_DIR$/1.py" />
-        <option value="$PROJECT_DIR$/override_event_15.py" />
-        <option value="$PROJECT_DIR$/event_sender_16.py" />
-        <option value="$PROJECT_DIR$/trigger_signal_17.py" />
-        <option value="$PROJECT_DIR$/inputdialog_18.py" />
-        <option value="$PROJECT_DIR$/colordialog_19.py" />
-        <option value="$PROJECT_DIR$/fontdialog_20.py" />
-        <option value="$PROJECT_DIR$/filedialog_21.py" />
-        <option value="$PROJECT_DIR$/25_QProgressBar.py" />
-        <option value="$PROJECT_DIR$/26_QCalendarWidget.py" />
-        <option value="$PROJECT_DIR$/27_QPixMap.py" />
-        <option value="$PROJECT_DIR$/28_QLineEdit.py" />
-        <option value="$PROJECT_DIR$/29_QSplitter.py" />
-        <option value="$PROJECT_DIR$/30_QComboBox.py" />
-        <option value="$PROJECT_DIR$/31_Drag’n’drop.py" />
-        <option value="$PROJECT_DIR$/32_Drag’n’dropWidget.py" />
+        <option value="$PROJECT_DIR$/QCheckBox_22.py" />
+        <option value="$PROJECT_DIR$/QPushButton_23.py" />
+        <option value="$PROJECT_DIR$/24_QSlider.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="20" />
-    <option name="y" value="17" />
-    <option name="width" value="1392" />
-    <option name="height" value="856" />
+    <option name="y" value="137" />
+    <option name="width" value="1400" />
+    <option name="height" value="860" />
   </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State>
-            <id />
-          </State>
-          <State>
-            <id>Python</id>
-          </State>
-          <State>
-            <id>Spelling</id>
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>SpellCheckingInspection</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -108,11 +57,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="configurable.group.project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -126,8 +74,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.32_Drag’n’dropWidget">
-    <configuration name="28_QLineEdit" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.24_QSlider">
+    <configuration name="24_QSlider" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PyQt5_2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -139,13 +87,13 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/28_QLineEdit.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/24_QSlider.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="29_QSplitter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="QCheckBox_22" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PyQt5_2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -157,13 +105,13 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/29_QSplitter.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/22_QCheckBox.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="30_QComboBox" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="QPushButton_23" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PyQt5_2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -175,162 +123,22 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/30_QComboBox.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/23_QPushButton.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="31_Drag’n’drop" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PyQt5_2" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/31_Drag’n’drop.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="32_Drag’n’dropWidget" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PyQt5_2" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/32_Drag’n’dropWidget.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="block_layout_11" type="PythonConfigurationType" factoryName="Python">
-      <module name="PyQt2" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/block_layout_11.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration default="true" type="Tox" factoryName="Tox">
-      <module name="PyQt2" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Doctests">
-      <module name="PyQt2" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Nosetests">
-      <module name="PyQt2" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_regexPattern" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Twisted Trial">
-      <module name="PyQt2" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Unittests">
-      <module name="PyQt2" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="py.test">
-      <module name="PyQt2" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list>
-      <item itemvalue="Python.block_layout_11" />
-      <item itemvalue="Python.28_QLineEdit" />
-      <item itemvalue="Python.29_QSplitter" />
-      <item itemvalue="Python.30_QComboBox" />
-      <item itemvalue="Python.31_Drag’n’drop" />
-      <item itemvalue="Python.32_Drag’n’dropWidget" />
+      <item itemvalue="Python.QCheckBox_22" />
+      <item itemvalue="Python.QPushButton_23" />
+      <item itemvalue="Python.24_QSlider" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.32_Drag’n’dropWidget" />
-        <item itemvalue="Python.31_Drag’n’drop" />
-        <item itemvalue="Python.30_QComboBox" />
-        <item itemvalue="Python.29_QSplitter" />
-        <item itemvalue="Python.28_QLineEdit" />
+        <item itemvalue="Python.24_QSlider" />
+        <item itemvalue="Python.QPushButton_23" />
+        <item itemvalue="Python.QCheckBox_22" />
       </list>
     </recent_temporary>
   </component>
@@ -339,243 +147,105 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b0c185c8-7b18-45c9-b1eb-e217cddd75f0" name="Default" comment="" />
-      <created>1521794619822</created>
+      <changelist id="55efe68d-a871-486a-a91d-b1855a66139d" name="Default" comment="" />
+      <created>1522088108265</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1521794619822</updated>
+      <updated>1522088108265</updated>
     </task>
-    <task id="LOCAL-00001" summary="20180323@work">
-      <created>1521813540294</created>
+    <task id="LOCAL-00001" summary="20180326@home">
+      <created>1522092646838</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1521813540294</updated>
+      <updated>1522092646838</updated>
     </task>
-    <task id="LOCAL-00002" summary="20180326@work">
-      <created>1522051302716</created>
+    <task id="LOCAL-00002" summary="20180326@home">
+      <created>1522100685684</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1522051302716</updated>
+      <updated>1522100685684</updated>
     </task>
-    <task id="LOCAL-00003" summary="20180326@work">
-      <created>1522051428410</created>
+    <task id="LOCAL-00003" summary="20180326@home">
+      <created>1522100720359</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1522051428410</updated>
+      <updated>1522100720360</updated>
     </task>
-    <task id="LOCAL-00004" summary="20180326@work">
-      <created>1522055377309</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1522055377309</updated>
-    </task>
-    <task id="LOCAL-00005" summary="20180326@work">
-      <created>1522073371820</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1522073371820</updated>
-    </task>
-    <task id="LOCAL-00006" summary="20180327@work">
-      <created>1522129547132</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1522129547133</updated>
-    </task>
-    <task id="LOCAL-00007" summary="20180327@work">
-      <created>1522131201277</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1522131201277</updated>
-    </task>
-    <task id="LOCAL-00008" summary="20180327@work">
-      <created>1522138691893</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1522138691893</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="0" width="1442" height="873" extended-state="6" />
+    <frame x="-1" y="0" width="1368" height="741" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23006351" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.499187" visible="true" weight="0.24944155" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50670433" side_tool="true" weight="0.26034713" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49470714" weight="0.32977304" />
-      <window_info anchor="bottom" id="Python Console" order="7" weight="0.32977304" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4932957" weight="0.26034713" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.24982357" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24311183" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.24944155" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39919892" />
+      <window_info id="Favorites" order="1" sideWeight="0.500813" side_tool="true" weight="0.24944155" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="20180323@work" />
-    <MESSAGE value="20180326@work" />
-    <MESSAGE value="20180327@work" />
-    <option name="LAST_COMMIT_MESSAGE" value="20180327@work" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="4" />
-    </breakpoint-manager>
-    <watches-manager>
-      <configuration name="PythonConfigurationType">
-        <watch expression="fname[0]" language="Python" />
-      </configuration>
-    </watches-manager>
-  </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="watch">
-      <expression>
-        <expression-string>fname[0]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>frame[0]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
+    <MESSAGE value="20180326@home" />
+    <option name="LAST_COMMIT_MESSAGE" value="20180326@home" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/filedialog_21.py" />
-    <entry file="file://$PROJECT_DIR$/message_box.py" />
+    <entry file="file://$PROJECT_DIR$/24_QSlider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/.PyCharmCE2017.3/system/python_stubs/-1247971764/PyQt5/QtWidgets/QWidget.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1360">
-          <caret line="80" column="10" selection-start-line="80" selection-start-column="8" selection-end-line="80" selection-end-column="10" />
+        <state relative-caret-position="12036">
+          <caret line="708" column="8" selection-start-line="708" selection-start-column="8" selection-end-line="708" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simple.py" />
-    <entry file="file://$PROJECT_DIR$/icon_app.py" />
-    <entry file="file://$PROJECT_DIR$/tips.py" />
-    <entry file="file://$PROJECT_DIR$/quit_window.py" />
-    <entry file="file://$PROJECT_DIR$/message_box.py" />
-    <entry file="file://$PROJECT_DIR$/menu_toolbat_statusbar_09.py" />
-    <entry file="file://$PROJECT_DIR$/block_layout_11.py" />
-    <entry file="file://$USER_HOME$/.PyCharmCE2017.3/system/python_stubs/-1247971764/PyQt5/QtWidgets/QApplication.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="172" column="31" lean-forward="true" selection-start-line="172" selection-start-column="31" selection-end-line="172" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/greed_layout_12.py" />
-    <entry file="file://$PROJECT_DIR$/layout_review_13.py" />
-    <entry file="file://$PROJECT_DIR$/1.py" />
-    <entry file="file://$USER_HOME$/.PyCharmCE2017.3/system/python_stubs/-1247971764/PyQt5/QtWidgets/QLCDNumber.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="109" column="8" selection-start-line="109" selection-start-column="8" selection-end-line="109" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/signals_slotes_14.py" />
-    <entry file="file://$PROJECT_DIR$/absolute_layout_10.py" />
-    <entry file="file://$PROJECT_DIR$/event_sender_16.py" />
-    <entry file="file://$PROJECT_DIR$/trigger_signal_17.py" />
-    <entry file="file://$PROJECT_DIR$/override_event_15.py" />
-    <entry file="file://$PROJECT_DIR$/inputdialog_18.py" />
-    <entry file="file://$PROJECT_DIR$/colordialog_19.py" />
-    <entry file="file://$PROJECT_DIR$/fontdialog_20.py" />
-    <entry file="file://$PROJECT_DIR$/filedialog_21.py" />
-    <entry file="file://$PROJECT_DIR$/25_QProgressBar.py">
+    <entry file="file://$PROJECT_DIR$/22_QCheckBox.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/26_QCalendarWidget.py">
+    <entry file="file://$PROJECT_DIR$/23_QPushButton.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state>
+          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/24_QSlider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/27_QPixMap.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="4" selection-end-line="4" />
+        <state relative-caret-position="412">
+          <caret line="42" column="32" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.PyCharmCE2017.3/system/python_stubs/-1247971764/PyQt5/QtWidgets/QWidget.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="263" column="8" selection-start-line="263" selection-start-column="8" selection-end-line="263" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2017.3/system/python_stubs/-1247971764/PyQt5/QtWidgets/QLineEdit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="368" column="8" selection-start-line="368" selection-start-column="8" selection-end-line="368" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/28_QLineEdit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/29_QSplitter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/30_QComboBox.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/32_Drag’n’dropWidget.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-238">
-          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/31_Drag’n’drop.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-end-line="4" />
+        <state relative-caret-position="17">
+          <caret line="708" column="8" selection-start-line="708" selection-start-column="8" selection-end-line="708" selection-end-column="8" />
         </state>
       </provider>
     </entry>

@@ -22,7 +22,7 @@ class MyApp(App):
                              background_color=[0, 0, 1, 1],
                              background_normal='',
                              size_hint=(.5, .25),
-                             pos=(640/2-(640*.5/2), 480/2-(480*.25/2))))
+                             pos=(640/2-640*0.5/2, 480/2-480*0.25/2)))
         s.add_widget(fl)
         return s
 
