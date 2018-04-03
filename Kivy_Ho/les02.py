@@ -7,7 +7,8 @@ from kivy.uix.boxlayout import BoxLayout
 
 class BoxApp(App):
     def build(self):
-        bl = BoxLayout(orientation='horizontal', padding=[25, 50, 50, 25])
+        # bl = BoxLayout(orientation='horizontal', padding=[25, 50, 50, 25])
+        bl = BoxLayout(orientation='horizontal', spacing=100)
 
         bl.add_widget(Button(text='Кнопка 1'))
         bl.add_widget(Button(text='Кнопка 2'))
