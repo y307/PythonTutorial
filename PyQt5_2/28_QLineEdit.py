@@ -13,11 +13,12 @@ class Example(QWidget):
         self.initUI()
 
     def initUI(self):
-        self.lbl = QLabel(self)
+        lbl = QLabel(self)
         qle = QLineEdit(self)
 
         qle.move(60, 100)
-        self.lbl.move(60, 40)
+        lbl.move(60, 40)
+        lbl.setText('Lable')
 
         qle.textChanged[str].connect(self.onChanged)
 
